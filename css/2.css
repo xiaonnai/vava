@@ -14,7 +14,8 @@
        margin-top: -75px;
         background: -webkit-linear-gradient(rgb(117, 0, 138), rgb(166, 2, 241)) ; 
         -webkit-text-fill-color: transparent;
-         -webkit-background-clip: text; 
+        background-clip: text;
+        -webkit-background-clip: text; 
          margin-left: 110px;
 }
 
