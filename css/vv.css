@@ -1,0 +1,274 @@
+.cabecalho { width: 100%; height: 100px; background-color: rgba(0, 0, 0, 0.349); top: 0; margin-left: 1px; border-radius: 5px;
+}
+#icon {
+    max-width: 90px; height: 90px; border-radius: 50px;
+}
+
+.nav {
+    font-family: MyFirstFont; 
+    color: #9358bbe1;
+     text-transform: none; 
+     font-size: 35px; 
+     text-align: left;
+      word-spacing: 10px;
+       margin-top: -75px;
+        background: -webkit-linear-gradient(rgb(117, 0, 138), rgb(166, 2, 241)) ; 
+        -webkit-text-fill-color: transparent;
+         -webkit-background-clip: text; 
+         margin-left: 110px;
+}
+
+.button {
+    appearance: none;
+     background-color: rgba(95, 27, 126, 0.938);
+      border-radius: 20px; 
+      border-style: none; 
+      box-sizing: border-box; 
+      color: #d3d3d3; 
+      cursor: pointer;      
+       font-family: MyFirstFont;
+        font-size: 20px;
+         font-weight: 400; 
+         height: 60px;
+          margin-top: -45px; 
+          text-align: center;
+           position: relative; 
+           padding: 16px 40px;
+            float: right;
+             margin-right: 100px;
+            text-decoration: none;           
+            vertical-align: baseline;                  
+            transition-duration: 0.7s;
+}
+
+.button:hover{
+    background-color: rgb(216, 139, 252);
+   
+}
+
+.foto {
+    
+    position: absolute;
+    left: 850px;
+    
+}
+ #clove1 {
+    width: 1100px;
+    top: -700px;
+    position: relative;
+    left: 300px;
+    max-width:900px;
+    max-height:900px;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    
+
+ }
+
+#clove1:hover {
+    opacity: 1;
+	-webkit-animation: flash 2.5s;
+	animation: flash 2.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+h1 {
+    font-family: Second;
+    color: #ffffffee;
+    font-size: 60px;
+    word-break: normal;
+    position: relative;
+    top: 90px;
+    margin-left: 60px;
+}
+h2{
+    font-family: Second;
+    font-size: 60px;
+    position: relative;
+    top: 70px;
+    margin-left: 65px;
+    line-height: 1;
+    cursor: pointer;
+    font-style: italic;
+    
+}
+
+h2{
+    color:  #ffffffe0;
+    -webkit-text-stroke: #d877ff;
+    position: relative;
+    
+}
+
+h2::before{
+    content: "THE BEGINNING.";
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    overflow: hidden;
+    color: #d877ff;
+    border-right: #ffffffe8 5px solid;
+    transition: 0.5s ease-in-out;
+}
+
+h2:hover::before {width: 100%; filter: drop-shadow(0 0 25px #d877ff);}
+
+p{
+    font-size: 20px;
+    color: #fcf9fd;
+    font-family: MyFirstFont;
+    width: 900px;
+    top: 80px;
+    position: relative;
+    margin-left: 70px;
+}
+
+.death{
+    color: #d877ff;
+}
+
+h3{
+    color:  #ffffffe0;
+    font-family: Second;
+    font-size: 40px;
+    position: relative;
+    top: 100px;
+    margin-left: 60px;
+    line-height: 1;
+
+}
+
+.abilities {
+    max-width:750px;
+    max-height:750px;
+    position: relative;
+    top: 100px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.abilities:hover{
+    opacity: 1;
+	-webkit-animation: flash 2.5s;
+	animation: flash 2.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.clove2{
+    max-width: 800px;
+    max-height: 800px;
+    margin-top: 350px;
+    margin-left: 50px;
+    border-radius: 30px;
+    top: -150px;
+    position: relative;
+    cursor: pointer;
+}
+
+.clove2:hover{
+    opacity: 1;
+	-webkit-animation: flash 2.5s;
+	animation: flash 2.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.rodape {
+    width: 900px;
+    max-height: 900px;
+    margin-top: 300px;
+    margin-left: 90px;
+    position: relative;}
+    
+h4{
+    color:  #dc8cfce3;
+    font-family: Second;
+    font-size: 80px;
+    position: relative;
+    top: -650px;
+    margin-left: 140px;
+    line-height: 1;
+    left: 900px;
+    font-style: italic;
+    background-color: #33333300;
+    letter-spacing: .1em;
+    text-shadow: 
+      0 -1px 0 #a54bc9, 
+      0 1px 0 #240035, 
+      0 2px 0 #240035, 
+      0 3px 0 #240035, 
+      0 4px 0 #282828, 
+      0 5px 0 #262626, 
+      0 6px 0 #242424, 
+      0 7px 0 #222, 
+      0 8px 0 #202020, 
+      0 9px 0 #1e1e1e, 
+      0 10px 0 #1c1c1c, 
+      0 11px 0 #1a1a1a, 
+      0 12px 0 #181818, 
+      0 13px 0 #161616, 
+      0 14px 0 #141414, 
+      0 15px 0 #121212, 
+      0 22px 30px rgba(0, 0, 0, 0.9);
+}
+
+.p1{
+    color:  #fffeffea;
+    font-family: MyFirstFont;
+    font-size: 25px;
+    position: relative;
+    top: -700px;
+    width: 700px;
+    margin-left: 90px;
+    line-height: 1;
+    left: 900px;
+    
+}
+
+
